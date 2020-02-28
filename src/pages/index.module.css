@@ -507,6 +507,7 @@
 
 }
 .contactContainer > img{
+    width: 100%;
     position: absolute;
     height: inherit;
     object-fit: cover;

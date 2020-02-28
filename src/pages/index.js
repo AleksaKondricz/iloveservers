@@ -68,10 +68,11 @@ const HomePage = () => {
         </div>
         <div className={styles.trapezoid}></div>
       </section>
-      <Fade bottom duration={800}>
+    
       <section  className={styles.aboutSection} id="about"> 
+      <Fade bottom >
       <h1 className={styles.aboutUsTitle}>Who are we?</h1>
-      
+      </Fade>
       <div className={styles.aboutContainer}>   
       <Fade >    
         <div className={styles.aboutTextWrapper}>
@@ -118,7 +119,7 @@ const HomePage = () => {
         
 
       </section>
-      </Fade>
+     
      
       <section className={styles.technologiesContainer} id="technologies">
             <Fade left> <h1><mark>Tech</mark>nologies</h1></Fade>
@@ -261,17 +262,17 @@ const HomePage = () => {
        
       </section>
   
-      <Fade bottom  >
+    
       <section className={styles.achievementsContainer} id="achievements">
        <Fade left  ><h1><mark>Achieve</mark>ments</h1></Fade> 
-       <Zoom clear  > <div className={styles.achievementsList}>
+       <div className={styles.achievementsList}>
           {trophyData.map(trophy => (<TrophyCard  {...trophy}  />))}
         </div>
-        </Zoom>
-      </section>
-      </Fade>
       
-    <Fade bottom>
+      </section>
+    
+      
+    
       <section className={styles.contactContainer} id="contact">
       <img src="images/teamwork.jpg" alt="Coding together" />
       <Zoom clear>
@@ -287,8 +288,8 @@ const HomePage = () => {
           <Form />
         </div>
         </Zoom>
-            </section>  
-            </Fade>
+        </section>  
+     
       <Footer />
     </Fragment>
   )
