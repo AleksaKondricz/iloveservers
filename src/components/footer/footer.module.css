@@ -1,0 +1,40 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    background-color: #2a1b3d;
+    filter: saturate(.5);
+    padding: 24px 0;
+}
+
+.innerContainer {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-family: 'Khula', sans-serif; 
+    color: white;
+
+  
+}
+
+.innerContainer > h2 {
+    color: #e98074;
+    font-weight: 900;
+    margin: 0;
+    font-family: 'Khula', sans-serif;
+    font-size: 1.1rem;
+}
+.innerContainer > p{
+    font-size: .9rem;
+    margin: 9px 0;
+}
+@media screen and (max-width: 740px) {
+    .innerContainer > h2{
+        font-size: .9rem;
+    }
+    .innerContainer > p{
+        font-size: .7rem;
+    }
+}

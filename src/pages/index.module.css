@@ -1,0 +1,842 @@
+.homeContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;    
+    position: relative;
+}
+.trapezoid{
+    clip-path: polygon(80% 22%, 100% 0%, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 10vh;
+    background-color: #f3f3f3;
+    position: absolute;
+    bottom: -1px;
+    
+}
+
+.trapezoidReversed{
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    transform: rotate(180deg);
+    width: 100%;
+    height: 10vh;
+    background-color: #f3f3f3;
+    position: absolute;
+    top: -2px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #2a1b3d;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+
+.hero > img{
+    z-index: 999;
+    filter: drop-shadow(2px 4px 6px black);
+    margin-left: -10%;
+    /*animation: revolve .8s linear forwards infinite;*/
+}
+
+
+
+.hero > h1 {
+   
+    font-family: 'Khula', sans-serif;
+    color: #fff;
+    font-size: calc(4rem + 2vw);
+    font-weight: 900;
+    line-height: 6rem;
+    text-align: center;
+    max-width: 20ch;
+    margin-bottom: 0;
+}
+.hero>h1>span{
+ 
+    color: #e98074;
+    background-color: transparent;
+}
+.hero >h2{
+    font-family: 'Khula', sans-serif;
+    width: 60%;
+    text-align: center;
+    color: #CCD5E0;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.ctaButtons{
+    margin-top: 2rem;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.aboutSection{
+    padding: 80px 0;
+ 
+    background-color: #f3f3f3;
+}
+.aboutContainer{
+    display: flex;
+    height: 100%;
+    background-color: #f3f3f3;
+    padding: 60px 0;
+}
+.aboutUsMediaBox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutUsMediaBox>img{
+    width:50%;
+    border-radius: 50%;
+    mix-blend-mode: luminosity;
+}
+.aboutUsTitle{
+    background: #f3f3f3;
+    color: #000;
+    font-weight: 900;
+    font-family: 'Khula', sans-serif;
+    text-align: center;
+    font-size: calc(3rem + 2vw);
+    margin: 0;
+    padding: 0;
+}
+
+.decorativeCircle{
+    height: 10vw;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e98074;
+    padding: 24px;
+    border-radius: 50%;
+    margin-top: -20%;
+    margin-left: 40%;
+    z-index: 9;
+}
+.decorativeCircle > p{
+    font-family: 'Khula', sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+}
+.listicleWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f3f3f3;
+    padding: 30px 60px ;
+    padding-bottom: 120px;
+   
+}
+.listicleWrapper > h2{
+
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    line-height: 2.2rem;
+    padding:10px;
+    font-family: 'Khula', sans-serif;
+    font-size: 2.2rem;
+    min-height: 12vw;
+    height: 100%;
+    width:12.8%;
+    background-color: black;
+    color: white;
+}
+.listicleWrapper > ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+.listicleWrapper > ul > li:before {
+    content: '✓';
+    color: tomato;
+    font-size: 1.5rem;
+  }
+ .listicleWrapper>ul> li{
+    white-space: pre-wrap;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    background-color: #fff;
+    font-family: 'Khula', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    min-height: 12vw;
+    height: 100%;
+    min-width: 12.6%;
+    width: 100%;
+    padding: 10px;
+    text-align: center;}
+
+.listicleWrapper>ul>li:nth-child(even):before{
+    color: #fff;
+}
+.listicleWrapper>ul>li:nth-child(even){
+ background-color: #e98074;
+}
+.technologiesContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-color: #2a1b3d;
+    padding: 100px 0;
+    padding-bottom: 130px;
+
+}
+.technologiesContainer > h1{
+    color: #fff;
+    font-family: 'Khula', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+
+}
+.technologiesContainer>h1>mark{
+    background-color: transparent;
+    color: #e98074;
+}
+.projectsSection > h1{
+    color: #000;
+    font-family: 'Khula', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+
+}
+.projectsSection>h1>mark{
+    background-color: transparent;
+    color: #e98074;
+}
+.shortIntro > p{
+    text-indent: 1em;
+    text-align: justify;
+    font-family: 'Khula', sans-serif;
+    font-size: 1.3rem;
+    width: 76%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #fff;  
+}
+.gridsWrapper{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    
+}
+.gridRow {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    margin: auto;
+    align-items: center;
+}
+.gridRow h4 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Khula', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-top: 60px;
+}
+
+.gridRowMiddle {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    margin: auto;
+    align-items: center;
+}
+.gridRowMiddle h4 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Khula', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-top: 60px;
+}
+
+.gridRowLast {
+    display: flex;
+    justify-content: center;
+    width: 82%;
+    margin: auto;
+    align-items: center;
+}
+.toolsTitle {
+    color: #fff;
+    text-align: center;
+    font-family: 'Khula', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-top: 0px;
+}
+
+
+.projectsSection{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    padding: 160px 0;
+}
+.projectsIntro{
+    color: #000;
+    font-family: 'Khula', sans-serif;
+    text-indent: 1rem;
+    width: 80%;
+    margin: auto;
+    font-size: 1.5rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.projectsContainer{
+    display: flex;
+    justify-content: space-around ;
+    margin: auto;
+    align-items: center;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background-color: #f3f3f3;
+}
+
+.achievementsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    margin: auto;
+    padding: 160px 0;
+    padding-bottom: 200px;
+    align-items: center;
+    height: 100%;
+    background-color: #2a1b3d;
+}
+.achievementsContainer > h1{
+    font-family: 'Khula', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+}
+.achievementsContainer>h1>mark{
+    background-color: transparent;
+    color: #e98074;
+
+}
+
+.achievementsList{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.contactContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100%;
+    padding-bottom: 150px;
+    padding-top: 150px;
+
+}
+
+.aboutTextWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    margin: 60px;
+    color: #000;
+}
+.aboutTextWrapper h2 {
+    font-family: 'Khula', sans-serif; 
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0;
+    max-width: 71ch;
+
+}
+.aboutTextWrapper p {
+    font-family: 'Khula', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.aboutTextWrapper ul {
+    list-style: none;
+  }
+  
+
+.logoWrapper{
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+}
+
+
+.techLogo{
+    object-fit: fill;
+    height: 4vw;
+    width: 4vw;
+    filter: contrast(1.5)
+   
+}
+.logosGrid {
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-auto-flow: row; /*default value*/
+    margin: auto;
+   height: fit-content;
+   padding: 24px;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+.logosGridMiddle {
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-auto-flow: row; /*default value*/
+    margin: auto;
+   height: fit-content;
+   padding: 24px;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+.logosGridLast {
+    display: grid;  
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 20px;
+    grid-auto-flow: row; /*default value*/
+    margin: auto;
+   height: fit-content;
+   padding: 24px;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+.methodology{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+.methodologyTitle{
+    color: #ffc107;
+    font-family: 'Khula', sans-serif;
+    font-weight: 600;
+    font-size: 1.6em;
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+.methodologyContent{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.methodologyContent > img{
+    width: 82%;
+}
+
+   
+
+
+.contactUsInfo h2 {
+    font-family: 'Khula', sans-serif; 
+    font-size: calc(1.3rem + 1vw);
+    letter-spacing: 1pt;
+    color: #fff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+.contactUsInfo p {
+
+          text-align: center;
+           font-size: 1.3rem;
+            font-family: 'Khula', sans-serif;
+            color: #fff;
+}
+.formWrapper{
+    position: absolute;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000007a;
+    padding: 30px 0;
+
+}
+.contactContainer > img{
+    position: absolute;
+    height: inherit;
+    object-fit: cover;
+    width: 100%;
+    min-height: 100vh;
+    mix-blend-mode: multiply;
+}
+@media screen and (max-width: 740px) {
+    .hero{
+        height: 100vh;
+    }
+    .hero > h1 {
+        font-size: calc(3.4rem + 4vw);
+        max-width: 9ch;
+        line-height: 4rem;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .hero > h2{
+      font-size: .9rem;
+      width: 90%;
+      line-height: 1.1rem;
+      margin: 2rem 0;
+      text-align: justify;
+      text-indent: 1rem;
+    }
+    .ctaButtons{
+        margin-top: 2rem;
+        flex-direction: column;
+        width: 90%;
+        min-height: 120px;
+        justify-content: space-around;
+    }
+   
+    .firstRow {
+        flex-direction: column;
+    }
+    .firstRow h4{
+        text-align: center;
+    }
+    .secondRow {
+        flex-direction: column;
+    }
+    .secondRow h4{
+        text-align: center;
+    }
+    .thirdRow {
+        flex-direction: column;
+    }
+    .thirdRow h4{
+        text-align: center;
+    }
+    .methodologyContent{
+        flex-direction: column;
+    }
+ 
+    .bgDesktop{
+        display: none
+    }
+    .bgMob{
+        display: flex;
+        object-fit: cover;
+    object-position: center;
+    width: 100%;
+    }
+    .aboutContainer{
+       flex-direction: column-reverse;
+       height: 100%;
+       padding: 0;
+    }
+    .aboutUsTitle{
+        margin-bottom: 40px;
+    }
+    .aboutTextWrapper {
+        margin: auto;
+        width: 90%;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .aboutTextWrapper > h2 {
+        text-indent: 1rem;
+        text-align: justify;
+        margin: auto;
+        width: 90%;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        font-weight: 700;
+    }
+    .aboutTextWrapper > p {
+        font-size: 1rem;
+        text-indent: 1rem;
+        line-height: 1.2rem;
+        text-align: justify;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 8px;
+    }
+    .aboutUsMediaBox{
+        width: 90%;
+        margin: auto;
+    }
+    .aboutUsMediaBox>img{
+        width: 70%;
+    }
+    .decorativeCircle{
+        height: 40vw;
+        width: 40vw;
+        margin-top: -25%;
+    }
+    .decorativeCircle > p{
+        line-height: 1rem;
+        font-size:.9rem;
+        position: absolute;
+    }
+    .listicleWrapper{
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .listicleWrapper > ul{
+        flex-direction: column;
+    }
+    .listicleWrapper > h2{
+        width: 100%;
+        font-size: 2rem;
+        padding: 20px;
+        line-height: 2.4rem;
+        text-align: center;
+        max-width: initial;
+        justify-content: center;
+    }
+    .listicleWrapper > ul > li:before{
+        font-size: 3rem;
+        margin-bottom: .6rem;
+    }
+    .listicleWrapper > ul > li{
+        margin-left: -50px;
+        margin-top: -10px;
+        z-index: 8;
+        min-height: 40vw;
+        text-align: center;
+        font-weight: 900;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+    .listicleWrapper > ul > li:nth-child(even){
+        margin-left: 50px;
+    }
+    .gridRow h4{
+        margin: 10px 0;
+        font-size: 1.4rem;
+    }
+    .gridRowMiddle h4{
+        margin: 10px 0;
+        font-size: 1.4rem;
+    }
+    .gridRow{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .gridRowMiddle{
+        flex-direction: column;
+    }
+    .logosGrid{
+        margin-bottom: 20px;
+    }
+    .logosGridMiddle{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+        grid-auto-flow: row;
+        margin: auto;
+        margin-bottom: 20px;
+        height: -webkit-fit-content;
+        height: fit-content;
+        padding: 24px;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+    }
+    .logosGridLast{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 20px;
+    }
+   .techLogo{
+       height: 50px;
+       width: 50px;
+   }
+    .projectsSection{
+        padding: 30px 0;
+    }
+    .projectsSection > h1{
+        margin: 10px 0;
+    }
+    .projectsIntro{
+        margin: 0 auto;
+        width: 86%;
+        font-size: 1rem;
+        line-height: 1rem;
+        font-weight: 500;
+        text-indent: 1rem;
+        text-align: justify;
+    }
+ 
+    .shortIntro > p{
+        font-size: 1rem;
+        width: 90%;
+        line-height: 1.1rem;
+        margin: 10px auto;
+    }
+    .technologiesContainer {
+      flex-direction: column;
+      height: 100%;
+      padding-bottom: 8px;
+    }
+    .projectsContainer{
+        flex-direction: column;
+        height: 100%;
+        padding: 10px 0 80px 0; 
+    }
+  
+ 
+    .contactContainer{
+        flex-direction: column;
+        height: 100%;
+    }
+    .achievementsContainer{
+        flex-direction: column;
+        height: 100%;
+        padding: 40px 0 80px 0; 
+    }
+    .achievementsList{
+        width: 100%;
+        flex-direction: column;
+    }
+   
+    .logosGrid {
+        border: none;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 100px;
+    
+    }
+    .logoWrapper img{
+        width: 70px;
+        height: 70px;
+       
+    }
+    .methodIconWrapper h5{
+        margin-top: 8px;
+        margin-bottom: 46px;
+    }
+    .methodIconWrapper img{
+        height: 80px;
+    }
+    .methodologyTitle{
+        margin-top: 8px;
+    }
+    .methodologyContent{
+        border: none;
+    }
+
+  
+    .contactUsInfo > h2 {
+        font-size: 1.8rem;
+        margin-top: 7%;
+    }
+    .contactUsInfo > p {
+        width: 90%;
+        margin: auto;
+        font-size: .9rem;
+        line-height: 1.1rem;
+    }
+    .formWrapper{
+        width: 90%;
+        padding: 0;
+        height: 90vh;
+    
+    }
+}
+
+@keyframes pulse {
+    0% {
+        border-radius: 50%;
+        padding: 30px;
+      -moz-box-shadow: 0 0 0 0 rgba(116, 203, 223, 0.4);
+      box-shadow: 0 0 0 0 rgba(116, 203, 223, 0.4);
+    }
+    70% {
+        border-radius: 50%;
+        padding: 60px;
+        -moz-box-shadow: 0 0 0 10px rgba(116, 203, 223, 0);
+        box-shadow: 0 0 0 10px rgba(116, 203, 223, 0);
+    }
+    100% {
+        border-radius: 50%;
+        padding: 90px;
+        -moz-box-shadow: 0 0 0 0 rgba(116, 203, 223, 0);
+        box-shadow: 0 0 0 0 rgba(116, 203, 223, 0);
+    }
+  }
+
+  @keyframes pulseMob {
+    0% {
+        border-radius: 50%;
+        padding: 10px;
+      -moz-box-shadow: 0 0 0 0 rgba(116, 203, 223, 0.4);
+      box-shadow: 0 0 0 0 rgba(116, 203, 223, 0.4);
+    }
+    70% {
+        border-radius: 50%;
+        padding: 15px;
+        -moz-box-shadow: 0 0 0 10px rgba(116, 203, 223, 0);
+        box-shadow: 0 0 0 10px rgba(116, 203, 223, 0);
+    }
+    100% {
+        border-radius: 50%;
+        padding: 20px;
+        -moz-box-shadow: 0 0 0 0 rgba(116, 203, 223, 0);
+        box-shadow: 0 0 0 0 rgba(116, 203, 223, 0);
+    }
+  }
+
+  @keyframes revolve {
+      from {
+          transform: rotateY(0deg);
+      }
+      to{
+          transform: rotateY(180deg);
+      }
+  }

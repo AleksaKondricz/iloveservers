@@ -1,0 +1,19 @@
+.mobMenu{
+    display: none;
+}
+
+@media screen and (max-width: 740px) {
+
+   .mobMenu{
+       display: block;
+       height: 100vh;
+       background-color: blue;
+       position: absolute;
+       z-index: 99;
+   }
+   .mobMenu>a{
+       font-family: 'Khula', sans-serif;
+       font-size: calc(3rem + 2vw);
+   }
+ 
+}
