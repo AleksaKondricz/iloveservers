@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="749.215" height="252.414" viewBox="0 0 749.215 252.414">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe339"/>
+      <stop offset="1" stop-color="#ff9327"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff4b6b"/>
+      <stop offset="0.995" stop-color="#ff245a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8d29"/>
+      <stop offset="1" stop-color="#ff6325"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00acd9"/>
+      <stop offset="1" stop-color="#0070f5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#45f2a4"/>
+      <stop offset="1" stop-color="#0fa49f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cb45f2"/>
+      <stop offset="1" stop-color="#7c0fa4"/>
+      <stop offset="1" stop-color="#0fa49f"/>
+    </linearGradient>
+  </defs>
+  <g id="Component_2_1" data-name="Component 2 – 1" transform="translate(0.543)">
+    <g id="Component_1_1" data-name="Component 1 – 1">
+      <g id="Group_6" data-name="Group 6" transform="translate(-70.831 -176.317)">
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="122.598" height="29.007" transform="translate(72.247 229.922)" fill="url(#linear-gradient)"/>
+        <text id="_01" data-name="01" transform="translate(83.831 202.317)" fill="#fefefe" font-size="24.069" font-family="SegoeUI, Segoe UI"><tspan x="-12.974" y="0">01</tspan></text>
+        <g id="Group_2" data-name="Group 2" transform="translate(0.418)">
+          <text id="_Available_only_for_Warsaw_based_clients" data-name="
+Available only for Warsaw based clients" transform="translate(80.033 296.494)" fill="#fff" font-size="11.502" font-family="SegoeUI, Segoe UI"><tspan x="0" y="12"></tspan><tspan x="0" y="25.802">Available only for </tspan><tspan x="0" y="39.605">Warsaw based </tspan><tspan x="0" y="53.407">clients</tspan></text>
+          <text id="Onsite_Possible" data-name="Onsite Possible" transform="translate(79.582 274.055)" fill="#c59f44" font-size="11.502" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="12">Onsite Possible</tspan></text>
+        </g>
+        <path id="Path_1" data-name="Path 1" d="M71.288,424.387v-212.6h50.7" fill="none" stroke="#fcfcfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <g id="Group_5" data-name="Group 5" transform="translate(-0.537 0.293)">
+          <g id="Group_3" data-name="Group 3">
+            <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="7.596" cy="7.928" rx="7.596" ry="7.928" transform="translate(82.664 386.707)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+            <path id="Path_2" data-name="Path 2" d="M99.982,426.12H80.537V411.709a9.723,9.723,0,0,1,9.722-9.723h0a9.723,9.723,0,0,1,9.723,9.723Z" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="Group_4" data-name="Group 4">
+            <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="7.596" cy="7.928" rx="7.596" ry="7.928" transform="translate(102.537 386.707)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+            <path id="Rectangle_3" data-name="Rectangle 3" d="M9.723,0h0a9.723,9.723,0,0,1,9.723,9.723V24.134a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V9.723A9.723,9.723,0,0,1,9.723,0Z" transform="translate(100.41 401.986)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <rect id="Rectangle_4" data-name="Rectangle 4" width="9.723" height="0.283" transform="translate(110.133 411.709)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_9" data-name="Group 9" transform="translate(-70.831 -176.317)">
+        <rect id="Rectangle_5" data-name="Rectangle 5" width="126.404" height="29.007" transform="translate(194.845 229.922)" fill="url(#linear-gradient-2)"/>
+        <text id="_02" data-name="02" transform="translate(208.381 202.317)" fill="#fefefe" font-size="24.069" font-family="SegoeUI, Segoe UI"><tspan x="-12.974" y="0">02</tspan></text>
+        <g id="Group_7" data-name="Group 7" transform="translate(-0.138)">
+          <text id="_We_work_all_around_the_globe" data-name="
+We work all around the globe" transform="translate(203.589 296.494)" fill="#fff" font-size="11.502" font-family="SegoeUI, Segoe UI"><tspan x="0" y="12"></tspan><tspan x="0" y="25.802">We work all </tspan><tspan x="0" y="39.605">around the globe</tspan></text>
+          <text id="Fully_Remote" data-name="Fully Remote" transform="translate(203.138 274.055)" fill="#ff4a6c" font-size="11.502" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="12">Fully Remote</tspan></text>
+        </g>
+        <path id="Path_3" data-name="Path 3" d="M194.845,424.387v-212.6h50.7" fill="none" stroke="#fcfcfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_12" data-name="Group 12" transform="translate(-70.831 -176.317)">
+        <rect id="Rectangle_6" data-name="Rectangle 6" width="129.657" height="29.007" transform="translate(321.249 229.922)" fill="url(#linear-gradient-3)"/>
+        <text id="_03" data-name="03" transform="translate(334.423 202.317)" fill="#fefefe" font-size="24.069" font-family="SegoeUI, Segoe UI"><tspan x="-12.974" y="0">03</tspan></text>
+        <g id="Group_10" data-name="Group 10" transform="translate(0.338)">
+          <text id="_Agile_develop-ment_is_not_a_stranger_to_us." data-name="
+Agile develop-ment is not a stranger to us." transform="translate(330.113 296.494)" fill="#fff" font-size="11.502" font-family="SegoeUI, Segoe UI"><tspan x="0" y="12"></tspan><tspan x="0" y="25.802">Agile develop-</tspan><tspan x="0" y="39.605">ment is not a </tspan><tspan x="0" y="53.407">stranger to us.</tspan></text>
+          <text id="Agile_Friendly" data-name="Agile Friendly" transform="translate(329.662 274.055)" fill="#ff8228" font-size="11.502" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="12">Agile Friendly</tspan></text>
+        </g>
+        <path id="Path_6" data-name="Path 6" d="M321.369,424.387v-212.6h50.7" fill="none" stroke="#fcfcfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <g id="Group_11" data-name="Group 11" transform="translate(-14.736 -0.705)">
+          <path id="Path_7" data-name="Path 7" d="M372.115,400a12.055,12.055,0,0,1-6.473,10.448v9.7H351.2v-9.7A12.091,12.091,0,0,1,344.736,400c0-6.789,6.129-12.292,13.689-12.292S372.115,393.208,372.115,400Z" transform="translate(0 0)" fill="#fff" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Line_1" data-name="Line 1" y2="15.073" transform="translate(358.425 405.072)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Line_2" data-name="Line 2" x2="15.884" transform="translate(350.483 424.273)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Line_3" data-name="Line 3" x2="7.581" transform="translate(354.635 428.41)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_15" data-name="Group 15" transform="translate(-70.831 -176.317)">
+        <rect id="Rectangle_7" data-name="Rectangle 7" width="122.598" height="29.007" transform="translate(450.906 229.922)" fill="url(#linear-gradient-4)"/>
+        <g id="Group_13" data-name="Group 13" transform="translate(-0.275)">
+          <text id="_We_deliver_fast_MVP_with_highest_quality." data-name="
+We deliver fast MVP with highest quality." transform="translate(459.726 296.494)" fill="#fff" font-size="11.502" font-family="SegoeUI, Segoe UI"><tspan x="0" y="12"></tspan><tspan x="0" y="25.802">We deliver fast </tspan><tspan x="0" y="39.605">MVP with highest </tspan><tspan x="0" y="53.407">quality.</tspan></text>
+          <text id="Fast_MVP" data-name="Fast MVP" transform="translate(459.275 274.055)" fill="#0094f9" font-size="11.502" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="12">Fast MVP</tspan></text>
+        </g>
+        <text id="_04" data-name="04" transform="translate(464.518 202.317)" fill="#fefefe" font-size="24.069" font-family="SegoeUI, Segoe UI"><tspan x="-12.974" y="0">04</tspan></text>
+        <path id="Path_10" data-name="Path 10" d="M450.982,424.387v-212.6h50.7" fill="none" stroke="#fcfcfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_19" data-name="Group 19" transform="translate(-70.831 -176.317)">
+        <rect id="Rectangle_9" data-name="Rectangle 9" width="122.6" height="29.007" transform="translate(573.504 229.922)" fill="url(#linear-gradient-5)"/>
+        <g id="Group_16" data-name="Group 16" transform="translate(-1.819)">
+          <text id="_We_are_testing_while_developing._" data-name="
+We are testing while developing. " transform="translate(587.819 296.494)" fill="#fff" font-size="11.502" font-family="SegoeUI, Segoe UI"><tspan x="0" y="12"></tspan><tspan x="0" y="25.802">We are testing </tspan><tspan x="0" y="39.605">while developing. </tspan></text>
+          <text id="Test_Driven_Development" data-name="Test Driven Development" transform="translate(587.819 274.055)" fill="#0fd1a1" font-size="11.502" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="12">Test Driven </tspan><tspan x="0" y="25.802">Development</tspan></text>
+        </g>
+        <g id="Group_18" data-name="Group 18" transform="translate(-6.195 7.154)">
+          <rect id="Rectangle_10" data-name="Rectangle 10" width="24.178" height="32.041" transform="translate(592.195 385.933)" fill="#fff" stroke="#0d0d0d" stroke-miterlimit="10" stroke-width="2"/>
+          <g id="Group_17" data-name="Group 17">
+            <rect id="Rectangle_11" data-name="Rectangle 11" width="24.178" height="32.041" transform="translate(598.094 380.846)" fill="#fff" stroke="#0d0d0d" stroke-miterlimit="10" stroke-width="2"/>
+            <line id="Line_4" data-name="Line 4" x2="12.089" transform="translate(604.138 387.707)" fill="none" stroke="#0d0d0d" stroke-miterlimit="10" stroke-width="2"/>
+            <line id="Line_5" data-name="Line 5" x2="12.089" transform="translate(604.138 401.953)" fill="none" stroke="#0d0d0d" stroke-miterlimit="10" stroke-width="2"/>
+            <line id="Line_6" data-name="Line 6" x2="12.089" transform="translate(604.138 394.83)" fill="none" stroke="#0d0d0d" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+        </g>
+        <text id="_05" data-name="05" transform="translate(587.819 202.317)" fill="#fefefe" font-size="24.069" font-family="SegoeUI, Segoe UI"><tspan x="-12.974" y="0">05</tspan></text>
+        <path id="Path_11" data-name="Path 11" d="M573.455,424.387v-212.6h50.7" fill="none" stroke="#fcfcfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_20" data-name="Group 20" transform="translate(53.169 -176.317)">
+        <rect id="Rectangle_9-2" data-name="Rectangle 9" width="122" height="29.007" transform="translate(573.504 229.922)" fill="url(#linear-gradient-6)"/>
+        <g id="Group_16-2" data-name="Group 16" transform="translate(582 274.055)">
+          <text id="_Follow_our_progress_from_the_start." data-name="
+Follow our progress from the start." transform="translate(0 22.439)" fill="#fff" font-size="11.502" font-family="SegoeUI, Segoe UI"><tspan x="0" y="12"></tspan><tspan x="0" y="25.802">Follow our </tspan><tspan x="0" y="39.605">progress from the </tspan><tspan x="0" y="53.407">start.</tspan></text>
+          <text id="Deploy_from_day_One" data-name="Deploy from day One" transform="translate(0)" fill="#cb45f2" font-size="11.502" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="12">Deploy from day </tspan><tspan x="0" y="25.802">One</tspan></text>
+        </g>
+        <text id="_06" data-name="06" transform="translate(587.819 202.317)" fill="#fefefe" font-size="24.069" font-family="SegoeUI, Segoe UI"><tspan x="-12.974" y="0">06</tspan></text>
+        <path id="Path_11-2" data-name="Path 11" d="M573.455,424.387v-212.6h50.7" fill="none" stroke="#fcfcfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Capa_1" data-name="Capa 1" transform="translate(132.169 208.683)">
+        <g id="_Group_" data-name="&lt;Group&gt;" transform="translate(0 0)">
+          <path id="_Path_" data-name="&lt;Path&gt;" d="M53.135,9.578a4.794,4.794,0,1,0-4.8-4.794,4.794,4.794,0,0,0,4.8,4.794Z" transform="translate(-43.822 0.01)" fill="#fff"/>
+          <path id="_Path_2" data-name="&lt;Path&gt;" d="M12.781,198.485h-9.5V183.79a1.64,1.64,0,1,0-3.281,0v23.418a1.64,1.64,0,1,0,3.281,0v-5.444h7.86v5.443a1.64,1.64,0,1,0,3.281,0v-7.082a1.639,1.639,0,0,0-1.64-1.64Z" transform="translate(0 -165.123)" fill="#fff"/>
+          <path id="_Path_3" data-name="&lt;Path&gt;" d="M255.737,281.491H235.25a1.64,1.64,0,1,0,0,3.281h8.6v10.852h-2.713a1.64,1.64,0,1,0,0,3.281h8.714a1.64,1.64,0,0,0,0-3.281h-2.717V284.771h8.6a1.64,1.64,0,1,0,0-3.281Z" transform="translate(-211.774 -255.178)" fill="#fff"/>
+          <path id="_Path_4" data-name="&lt;Path&gt;" d="M59.876,129.056H56.087V125.1a2.9,2.9,0,0,1-1.009-.874l-5.169-7.264,6.308,6.083a2.049,2.049,0,0,0,1.423.575h6.311a1.61,1.61,0,0,0-.351.968,1.641,1.641,0,0,0,1.64,1.64h9.312a1.64,1.64,0,0,0,1.52-1.028l4.1-10.109a1.641,1.641,0,1,0-3.041-1.234l-3.682,9.089H67.363a2.035,2.035,0,0,0,.551-1.378,1.989,1.989,0,0,0-.384-1.129,2.011,2.011,0,0,0-1.666-.921h-7.4l-5.71-5.509,3.29,2.167a4.113,4.113,0,0,0-4.088-3.726H50.2a4.128,4.128,0,0,0-4.128,4.128V130.6a3.426,3.426,0,0,0,3.144,3.383h8.2v9.227a2.461,2.461,0,1,0,4.921,0V131.525a2.461,2.461,0,0,0-2.461-2.469Z" transform="translate(-41.764 -101.938)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Capa_1-2" data-name="Capa 1" transform="translate(388.169 209.683)">
+        <path id="Path_12" data-name="Path 12" d="M18.156,8.749,21.984,10.5,39.749,2.085a.367.367,0,0,0-.01-.666L36.607.031a.367.367,0,0,0-.3,0L18.156,8.075a.367.367,0,0,0,0,.669Z" transform="translate(-16.058 0.001)" fill="#fff"/>
+        <path id="Path_13" data-name="Path 13" d="M19.282,103.773l-6.817-3.147v9.609a.262.262,0,0,1-.375.237L4.867,107.05a.262.262,0,0,1-.147-.237V97.138L.524,95.2A.367.367,0,0,0,0,95.531v21.895a.367.367,0,0,0,.21.334l18.763,8.576A.367.367,0,0,0,19.5,126V104.108a.367.367,0,0,0-.215-.335Z" transform="translate(0 -85.181)" fill="#fff"/>
+        <path id="Path_14" data-name="Path 14" d="M222.492,95.232a.367.367,0,0,0-.356-.025l-18.756,8.575a.367.367,0,0,0-.21.334v21.9a.367.367,0,0,0,.524.334l18.756-8.576a.367.367,0,0,0,.21-.334V95.54A.367.367,0,0,0,222.492,95.232Z" transform="translate(-181.861 -85.19)" fill="#fff"/>
+        <path id="Path_15" data-name="Path 15" d="M157.164,53.2a.367.367,0,0,0-.217-.338l-6.314-2.794a.367.367,0,0,0-.308,0L132.1,58.776l6.387,3.057a.368.368,0,0,0,.305,0l18.154-8.3A.366.366,0,0,0,157.164,53.2Z" transform="translate(-118.245 -44.788)" fill="#fff"/>
+      </g>
+      <g id="Layer_2" data-name="Layer 2" transform="translate(634.169 205.299)">
+        <g id="Capa_1-3" data-name="Capa 1" transform="translate(5 5.385)">
+          <path id="Path_20" data-name="Path 20" d="M3.5,133.689c-.033-.493.1-2.014-.426-1.522a28.006,28.006,0,0,0-2.481,2.716A2.189,2.189,0,0,0,0,136.264v11.454c0,.45.267.565.593.254l4.815-5.036c.313-.316.056-.628-.043-.828A23.805,23.805,0,0,1,3.5,133.689Z" transform="translate(0 -117.563)" fill="#fff"/>
+          <path id="Path_21" data-name="Path 21" d="M189.467,134.924a28,28,0,0,0-2.48-2.711c-.531-.493-.393,1.028-.426,1.522a23.786,23.786,0,0,1-1.867,8.424c-.1.2-.356.512-.043.828l4.815,5.031c.33.311.593.2.593-.255V136.306A2.187,2.187,0,0,0,189.467,134.924Z" transform="translate(-164.235 -117.605)" fill="#fff"/>
+          <path id="Path_22" data-name="Path 22" d="M50.368,26.008c4.833,0,6-1.137,6-1.137,1.4-2.354,2.258-6.839,2.258-11.617C58.63,6,52.26,0,50.351,0S42.07,6.006,42.07,13.254c0,4.636.859,9.267,2.259,11.618C44.33,24.872,45.432,26.008,50.368,26.008Zm-.11-19.69a4.219,4.219,0,1,1-4.216,4.22,4.219,4.219,0,0,1,4.216-4.22Z" transform="translate(-37.449)" fill="#fff"/>
+          <path id="Path_23" data-name="Path 23" d="M70.4,239.073c-.2-.791-.321.723-5.97.732-5.65-.009-5.765-1.523-5.97-.732-.04.155-.232,1.844-.291,2.455a26.843,26.843,0,0,0-.237,2.765c0,2.393,1.344,4.376,2,4.376.7,0,1.364-1.757,1.364-1.757.083-.136.2-.126.261.021,0,0,1.538,5.362,2.824,5.362l.049-.007.049.007c1.291,0,2.824-5.362,2.824-5.362.06-.147.178-.157.261-.021,0,0,.659,1.757,1.364,1.757.659,0,2-1.983,2-4.376a26.925,26.925,0,0,0-.237-2.765C70.63,240.917,70.438,239.228,70.4,239.073Z" transform="translate(-51.567 -212.61)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
