@@ -58,7 +58,7 @@ const Header = () => {
                 to={l.id}
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={0}
                 duration= {500}> {l.label}
             </Link>
           </li>))}

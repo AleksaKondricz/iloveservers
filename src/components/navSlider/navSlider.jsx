@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-
+import Zoom from 'react-reveal/Zoom'
 import styles from './navSlider.module.css';
 
 const NavSlider = ({elements, previous, next}) => {
@@ -28,11 +28,10 @@ const NavSlider = ({elements, previous, next}) => {
 
     return (
         <div className={styles.carousel} >
-            <h4 className={styles.previous} onClick={()=>decrementCarosuel()}  >{previous}</h4>
+           <h4 className={styles.previous} onClick={()=>decrementCarosuel()}  >{previous}</h4>
            
                {elements[cardDisplayed].node}
- 
-            <h4 className={styles.next} onClick={()=>incrementCarousel()}>{next}</h4>
+             <h4 className={styles.next} onClick={()=>incrementCarousel()}>{next}</h4>
         </div>
   );
 }

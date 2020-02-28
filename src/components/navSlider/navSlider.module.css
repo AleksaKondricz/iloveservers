@@ -20,6 +20,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 60;
+  
     
 }
 .previous:hover{
@@ -41,6 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 60;
     
 }
 .next:hover{
@@ -79,3 +82,5 @@
 
     }
 }
+
+

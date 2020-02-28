@@ -151,7 +151,7 @@
     font-size: 2.2rem;
     min-height: 12vw;
     height: 100%;
-    width:12.8%;
+    min-width:12.6%;
     background-color: black;
     color: white;
 }
@@ -356,10 +356,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 90vh;
     height: 100%;
-    padding-bottom: 150px;
-    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-top: 140px;
+    background-color: #607d8b;
 
 }
 
@@ -467,8 +468,11 @@
     padding: 24px;
 }
 
-.methodologyContent > img{
+.methodsHorizontal{
     width: 82%;
+}
+.methodsVertical{
+    display: none;
 }
 
    
@@ -493,7 +497,7 @@
 }
 .formWrapper{
     position: absolute;
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -507,12 +511,15 @@
     height: inherit;
     object-fit: cover;
     width: 100%;
-    min-height: 100vh;
+    top: 0;
     mix-blend-mode: multiply;
+    z-index: 0;
 }
 @media screen and (max-width: 740px) {
     .hero{
-        height: 100vh;
+        min-height: 100vh;
+        padding-top: 5vh;
+        padding-bottom: 15vh;
     }
     .hero > h1 {
         font-size: calc(3.4rem + 4vw);
@@ -530,7 +537,7 @@
       text-indent: 1rem;
     }
     .ctaButtons{
-        margin-top: 2rem;
+       margin-top: 0;
         flex-direction: column;
         width: 90%;
         min-height: 120px;
@@ -694,6 +701,9 @@
         grid-template-columns: repeat(3, 1fr);
         margin-bottom: 20px;
     }
+    .achievementsContainer > h1{
+        margin-bottom: 30px;
+    }
    .techLogo{
        height: 50px;
        width: 50px;
@@ -735,6 +745,7 @@
     .contactContainer{
         flex-direction: column;
         height: 100%;
+        padding: 5vh 0;
     }
     .achievementsContainer{
         flex-direction: column;
@@ -765,6 +776,7 @@
         height: 80px;
     }
     .methodologyTitle{
+        font-size: 2rem;
         margin-top: 8px;
     }
     .methodologyContent{
@@ -777,16 +789,26 @@
         margin-top: 7%;
     }
     .contactUsInfo > p {
-        width: 90%;
+        width: 93%;
         margin: auto;
         font-size: .9rem;
         line-height: 1.1rem;
     }
     .formWrapper{
+        position: relative;
         width: 90%;
         padding: 0;
-        height: 90vh;
+        min-height: 80vh;
+        padding: 24px 0;
     
+    }
+    .methodsHorizontal{
+        display:none;
+    }
+    .methodsVertical{
+        display: block;
+        margin-bottom: 100px;
+        width: 100%;
     }
 }
 

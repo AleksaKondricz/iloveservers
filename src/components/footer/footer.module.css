@@ -28,7 +28,7 @@ footer{
 }
 .innerContainer > p{
     font-size: .9rem;
-    margin: 9px 0;
+
 }
 @media screen and (max-width: 740px) {
     .innerContainer > h2{

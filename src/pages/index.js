@@ -73,7 +73,7 @@ const HomePage = () => {
       <h1 className={styles.aboutUsTitle}>Who are we?</h1>
       
       <div className={styles.aboutContainer}>   
-      <Fade left delay={800}>    
+      <Fade >    
         <div className={styles.aboutTextWrapper}>
           <h2>
             We are crafting unique software solutions. We transform a set of
@@ -94,7 +94,7 @@ const HomePage = () => {
           </p>
         </div>
         </Fade>
-        <Fade right delay={800}>
+        <Fade>
 
         <div className={styles.aboutUsMediaBox}>
           <img src='images/koppany.jpg' alt='Our lead developer'/>
@@ -105,13 +105,13 @@ const HomePage = () => {
     
           </div>
           <div className={styles.listicleWrapper}>
-            <Fade left delay={300}>
+            <Fade bottom  >
               <h2>Stuff<br/> we are<br/> good at</h2>
               </Fade>
             
               <ul>
             {aboutUsList.map(i => (
-                <Fade right delay={300}><li key={i.id}>{i.content}</li></Fade>
+                <Fade bottom delay={100}><li key={i.id}>{i.content}</li></Fade>
             ))}
           </ul>
           </div>
@@ -119,10 +119,10 @@ const HomePage = () => {
 
       </section>
       </Fade>
-      <Fade bottom>
+     
       <section className={styles.technologiesContainer} id="technologies">
-      <Fade bottom delay={300}> <h1><mark>Tech</mark>nologies</h1></Fade>
-      <Fade bottom delay={300}>
+            <Fade left> <h1><mark>Tech</mark>nologies</h1></Fade>
+     <Fade right>
         <div className={styles.shortIntro}>
           <p>
             We have a recommended set of technologies, what can achieve a really
@@ -136,7 +136,7 @@ const HomePage = () => {
         </Fade>
         <div className={styles.gridsWrapper}>
           <div className={styles.gridRow}>
-           <Fade left delay={300}>
+          <Fade left>
             <div>
               <h4>Frontend Technologies</h4>
               <div className={styles.logosGrid}>
@@ -148,7 +148,7 @@ const HomePage = () => {
               </div>
             </div>
             </Fade>
-            <Fade bottom delay={300}>
+            <Fade bottom>
             <div>
            
               <h4>Backend Technologies</h4>
@@ -162,7 +162,8 @@ const HomePage = () => {
 
             </div>
             </Fade>
-            <Fade right delay={300}>
+            <Fade right>
+          
             <div>
               <h4>Cloud Solutions & Hosting</h4>
               <div className={styles.logosGrid}>
@@ -178,7 +179,7 @@ const HomePage = () => {
           </div>
         
         <div className={styles.gridRowMiddle}>
-      <Fade left delay={300}>
+    <Fade left>
       <div>
             <h4>Testing</h4>
             <div className={styles.logosGridMiddle}>
@@ -190,7 +191,7 @@ const HomePage = () => {
             </div>
           </div>
           </Fade>
-          <Fade bottom delay={300}>
+          <Fade bottom>
           <div>
             <h4>Databases</h4>
             <div className={styles.logosGridMiddle}>
@@ -202,7 +203,7 @@ const HomePage = () => {
             </div>
           </div>
           </Fade>
-          <Fade right delay={300}>
+          <Fade right>
             <div>
           <h4>DevOps</h4>
           <div className={styles.logosGridMiddle}>
@@ -217,7 +218,7 @@ const HomePage = () => {
       </Fade>
       </div>
       <div className={styles.gridRowLast}>
-        <Fade bottom delay={300}>
+      <Zoom clear>
       <div>
           <h4 className={styles.toolsTitle}>Tools</h4>
           <div className={styles.logosGridLast}>
@@ -228,30 +229,30 @@ const HomePage = () => {
             ))}
           </div>
         </div>
-        </Fade>
+        </Zoom>
         </div>
-        <Zoom clear delay={300}>
+ <Zoom clear>
         <div className={styles.methodology}>
           <h4 className={styles.methodologyTitle}>Methodology</h4>
           <div className={styles.methodologyContent}>
-            <img src='methodology/sum1.svg'/>
-        
+            <img className={styles.methodsHorizontal} src='methodology/sum1.svg'  alt='Infographic representing methogologies we are practicing in our company'/>
+            <img className={styles.methodsVertical} src='images/methodologyMob.svg' alt='Infographic representing methogologies we are practicing in our company'/>
           </div>
         </div>
         </Zoom>
         </div>
      
       </section>
-      </Fade>
+  
 
       <section className={styles.projectsSection} id="projects">
-      <Fade bottom delay={300}><h1><mark>Pro</mark>jects</h1></Fade>
-        <Fade bottom delay={300}><p className={styles.projectsIntro}>
+      <Fade bottom  ><h1><mark>Pro</mark>jects</h1></Fade>
+        <Fade bottom  ><p className={styles.projectsIntro}>
           Besides building many classical products such as SPA-s, e-commerce
           sites, REST API-s, here are our most recent projects. For more references,
           code samples or consultations, please contact us.
         </p></Fade>
-     <Fade bottom delay={300}>
+     <Fade bottom  >
            <div className={styles.projectsContainer}>
          <NavSlider previous='<' next='>' elements={copy.projects.map(project => ({id:project.id, node: <ProjectCard {...project}/>}))}/>
          
@@ -260,20 +261,20 @@ const HomePage = () => {
        
       </section>
   
-      <Fade bottom delay={300}>
+      <Fade bottom  >
       <section className={styles.achievementsContainer} id="achievements">
-       <Fade left delay={300}><h1><mark>Achieve</mark>ments</h1></Fade> 
-       <Zoom clear delay={300}> <div className={styles.achievementsList}>
+       <Fade left  ><h1><mark>Achieve</mark>ments</h1></Fade> 
+       <Zoom clear  > <div className={styles.achievementsList}>
           {trophyData.map(trophy => (<TrophyCard  {...trophy}  />))}
         </div>
         </Zoom>
       </section>
       </Fade>
       
-      <Fade bottom delay={300}>
+    <Fade bottom>
       <section className={styles.contactContainer} id="contact">
       <img src="images/teamwork.jpg" alt="Coding together" />
-    <Zoom clear>
+      <Zoom clear>
         <div className={styles.formWrapper}>
         <div className={styles.contactUsInfo}>
           
@@ -287,7 +288,7 @@ const HomePage = () => {
         </div>
         </Zoom>
             </section>  
-        </Fade>
+            </Fade>
       <Footer />
     </Fragment>
   )

@@ -1,13 +1,13 @@
 import React from "react"
-
+import Fade from 'react-reveal/Fade';
 import styles from "./trophyCard.module.css"
 
 
 const TrophyCard = ({ mainCard, trophyTitle, trophyDescription, imageUrl, source }) => {
-  console.log(imageUrl)
+
   return (
  
-
+<Fade bottom >
       <div className={mainCard? styles.mainTrophyCard : styles.trophyCard}>
         <div className={mainCard?styles.mainStripe:styles.stripe}></div>
         <img className={styles.trophyImage} src={imageUrl}/>
@@ -17,7 +17,7 @@ const TrophyCard = ({ mainCard, trophyTitle, trophyDescription, imageUrl, source
           <a href={source}>Read More</a>
         </div>
       </div>
-    
+      </Fade>  
   )
 }
 
