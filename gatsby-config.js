@@ -7,6 +7,6 @@
 module.exports = {
   /* Your site config here */
 
-pathPrefix: "/ILS",
+pathPrefix: "/iloveservers",
  
 }
