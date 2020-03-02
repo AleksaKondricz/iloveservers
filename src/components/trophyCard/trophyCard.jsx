@@ -7,7 +7,7 @@ const TrophyCard = ({ mainCard, trophyTitle, trophyDescription, imageUrl, source
 
   return (
  
-<Fade bottom >
+<Fade ssrFadeout bottom >
       <div className={mainCard? styles.mainTrophyCard : styles.trophyCard}>
         <div className={mainCard?styles.mainStripe:styles.stripe}></div>
         <img className={styles.trophyImage} src={imageUrl}/>

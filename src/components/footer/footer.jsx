@@ -1,14 +1,17 @@
 import React from 'react';
 import styles from './footer.module.css'
 
-const Footer = () => {
+const Footer = ({heading, copyright}) => {
     return (
-    <footer>
-        <div className={styles.innerContainer}>
-        <h2>We Love Servers _</h2>
-        <p>Copyright © 2019</p>
-        </div>
-    </footer>  );
+        <footer>
+            <div className={
+                styles.innerContainer
+            }>
+                <h2>{heading}</h2>
+                <p>{copyright}</p>
+            </div>
+        </footer>
+    );
 }
- 
+
 export default Footer;

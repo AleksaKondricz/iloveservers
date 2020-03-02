@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Slide from 'react-reveal/Slide';
 import {Link, animateScroll as scroll} from 'react-scroll';
+import linkProps from './headerConfig';
 import styles from './header.module.css'
 
 
@@ -22,15 +23,16 @@ const Header = () => {
                 <img src="logos/logo.svg" alt="Logo" onClick={()=>scrollToTop()}/>
             </div>
             <ul>
-          {navLinksData.map(l => (<li><Link
+          {navLinksData.map(l => (
+          <li>
+            <Link
+                {...linkProps}
                 key={l.id}
-                className={styles.Link}
-                activeClass="active"
                 to={l.id}
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration= {500}> {l.label}</Link></li>))}
+                className={styles.Link}>
+                {l.label}
+            </Link>
+            </li>))}
         </ul>
         </header>
         <div className={styles.mobHeader}>
@@ -39,7 +41,7 @@ const Header = () => {
         </div>
             {mobileMenu && (
        <>
-       <Slide right>
+       <Slide ssrFadeout right>
        <div className={styles.closeButton} onClick={() => toggleMobileMenu(!mobileMenu)}> X </div>
        <div className={styles.mobMenu}>
            <div className={styles.mobMenuOrnamentUp}></div>
@@ -51,15 +53,12 @@ const Header = () => {
        <ul>
           {navLinksData.map(l => (<li>
             <Link
+                {...linkProps}
                 onClick={() => toggleMobileMenu(!mobileMenu)}
                 key={l.id}
                 className={styles.Link}
-                activeClass="active"
-                to={l.id}
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration= {500}> {l.label}
+                to={l.id}>
+                   {l.label}
             </Link>
           </li>))}
         </ul>

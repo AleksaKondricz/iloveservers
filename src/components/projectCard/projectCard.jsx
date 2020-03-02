@@ -9,9 +9,9 @@ const ProjectCard = ({ id, name, challenge, whatAchieved, tech, urls }) => {
   return (
    
     <div className={ styles.cardWithOrnament}>
-     <Fade left delay={100}> <div className={styles.projectCardDecorator}></div></Fade>
-      <Fade right delay={150}><div className={styles.projectCardDecoratorMiddle}></div></Fade>
-      <Fade left delay={200}><div className={styles.projectCardDecoratorEnd}></div></Fade>
+     <Fade ssrFadeout left delay={100}> <div className={styles.projectCardDecorator}></div></Fade>
+      <Fade ssrFadeout right delay={150}><div className={styles.projectCardDecoratorMiddle}></div></Fade>
+      <Fade ssrFadeout left delay={200}><div className={styles.projectCardDecoratorEnd}></div></Fade>
     <div className={styles.projectCardContainer}>
       <h2>{name}</h2>
       <h4>Challenge:</h4>
