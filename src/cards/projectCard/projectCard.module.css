@@ -1,0 +1,149 @@
+.invisibleCard{
+    display: none;
+}
+.cardWithOrnament{
+  position: relative;
+   width: 40%;
+}
+.projectCardContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 24px;
+    background-color: #fff;
+    color: black;
+    font-family: 'Khula', sans-serif; 
+    filter: drop-shadow(2px 2px 4px #c0c0c0);
+}
+
+.projectCardContainer h2 {
+    font-family: 'Khula', sans-serif; 
+    font-size: 2rem;
+    margin-bottom: 12px;
+    text-decoration: underline #009688;
+}
+.projectCardContainer h4 {
+    font-family: 'Khula', sans-serif; 
+    font-size: 1.6rem;
+    margin-top: 62px;
+    margin-bottom: 0px;
+}
+.projectCardDecorator{
+    position: absolute;
+    z-index: 9;
+    top: -10%;
+    right: -18%;
+    height: 12vw;
+    width: 12vw;
+    background-color: #44318d;
+    filter: drop-shadow(1px 2px 5px black);
+    border-radius: 50%;
+    opacity: .8;
+}
+.projectCardDecoratorMiddle{
+    position: absolute;
+    z-index: 0;
+    top: 30%;
+    left: -30%;
+    height: 17vw;
+    width: 17vw;
+    background-color: #009688;
+    border-radius: 50%;
+    opacity: .8;
+}
+.projectCardDecoratorEnd{
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+    right: -18%;
+    height: 10vw;
+    width: 10vw;
+    background-color: #e98074;
+    filter: drop-shadow(1px 2px 5px black);
+    border-radius: 50%;
+    opacity: .5;
+}
+.cardParagraph{
+    font-size: 1.3rem;
+    margin-top: 10px!important;
+}
+.projectCardContainer a{
+    margin-top: 24px;
+    float: right;
+    text-decoration: underline;
+    font-family: 'Khula', sans-serif; 
+    font-size: 1.3em;
+  
+}
+.techIconsCard{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-self: center;
+}
+.techStackIcon>a>img{
+    height: 3rem;
+    width: auto;
+    margin: 6px;
+ 
+}
+
+
+@media screen and (max-width: 740px) {
+    .projectCardContainer{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .cardWithOrnament{
+        width: 80%;
+    }
+    .projectCardDecorator{
+    top: 0; 
+    right: -6%;
+    height: 23vw;
+    width: 23vw;
+    }
+    .projectCardDecoratorMiddle{
+        height: 80vw;
+        width: 80vw;
+        left: -10%;
+    }
+    .projectCardDecoratorEnd{
+        bottom: -3%; 
+        right: -10%;
+        height: 27vw;
+        width: 27vw;
+    }
+    .projectCardContainer > h2{
+        font-size: 1.4em;
+        font-weight: 800;
+        text-decoration: overline #008688 2px;
+        
+
+    }
+    .projectCardContainer > h4 {
+        font-size: .9rem;
+        font-weight: 700;
+        margin: 6px 0;
+        margin-bottom: 0;
+       
+    }
+    .cardParagraph{
+        text-align: justify;
+        text-indent: 1rem;
+        font-size: .8rem;
+        line-height: 1rem;
+        margin: 0;
+    }
+    .projectCardContainer a {
+        font-size: 0.9rem;
+    }
+    .techStackIcon>a>img{
+        height: 1.5rem;
+        width: auto;
+    }
+    .techStackIcon>a{
+        margin-top: 0;
+    }
+}
