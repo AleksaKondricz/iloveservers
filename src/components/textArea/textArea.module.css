@@ -1,0 +1,36 @@
+
+textarea {
+    height: 25vh;
+    color: white;
+    padding: 9px;
+    font-family: 'Khula', sans-serif;
+    font-size: 1.3rem;
+    background: #00000078;
+    border: none;
+    width: 95%;
+    margin: 24px 0;
+    margin-bottom: 36px;
+   
+}
+ textarea::placeholder {
+    font-family: 'Khula', sans-serif;
+    font-size: 1.3rem;
+    color: #f9f9f9;
+}
+ textarea:focus{
+    outline: none;
+    background-color: black;
+    transition: 700ms background-color ease-in-out;
+}
+
+@media screen and (max-width:740px){
+
+    textarea::placeholder{
+        font-size: 0.9rem;
+    }
+  
+    textarea{
+        width: 80%;
+        margin: 12px 0;
+    }
+}

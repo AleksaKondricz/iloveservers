@@ -1,12 +1,11 @@
 /* eslint-disable react/forbid-prop-types */
 import React from "react"
-import PropTypes from "prop-types"
 import { Link } from "react-scroll"
 import Fade from "react-reveal/Fade"
 import Zoom from "react-reveal/Zoom"
 
-import copyProvider from "../utils/copyProvider"
-import { Header, Form, Footer, Button, NavSlider } from "../components"
+import { Header, Footer, Button, NavSlider } from "../components"
+import { Form } from "../containers"
 import { ProjectCard, TrophyCard } from "../cards"
 
 import {
@@ -343,10 +342,10 @@ const renderAchievements = () => {
 
 const renderContact = () => {
   return (
-    <Zoom clear ssrFadeout>
-      <section className={styles.contactContainer} id="contact">
-        <img src="images/teamwork.jpg" alt="Coding together" />
+    <section className={styles.contactContainer} id="contact">
+      <img src="images/teamwork.jpg" alt="Coding together" />
 
+      <Zoom clear ssrFadeout>
         <div className={styles.formWrapper}>
           <div className={styles.contactUsInfo}>
             <h2>Contact Us</h2>
@@ -356,14 +355,15 @@ const renderContact = () => {
               Looking forward in working with you
             </p>
           </div>
+
           <Form />
         </div>
-      </section>
-    </Zoom>
+      </Zoom>
+    </section>
   )
 }
 
-const HomePage = ({ t }) => {
+const HomePage = () => {
   return (
     <>
       <Header />
@@ -373,17 +373,12 @@ const HomePage = ({ t }) => {
       {renderProjects()}
       {renderAchievements()}
       {renderContact()}
-      <Footer />
+      <Footer
+        heading="We love servers_"
+        copyright="COPYRIGHT © 2020 KONKOP SOFTWARE ALL RIGHTS RESERVED."
+      />
     </>
   )
 }
 
-HomePage.propTypes = {
-  t: PropTypes.object
-}
-
-HomePage.defaultProps = {
-  t: {}
-}
-
-export default copyProvider("home")(HomePage)
+export default HomePage

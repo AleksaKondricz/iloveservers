@@ -64,8 +64,8 @@
         position: relative;
     }
     .previous{
-        width: 3rem;
-        height: 3rem;
+        width: .1rem;
+        height: .1rem;
         font-size: 1.5rem;
         position: absolute;
         left: 3%;
@@ -73,8 +73,8 @@
 
     }
     .next{
-        width: 3rem;
-        height: 3rem;
+        width: .1rem;
+        height: .1rem;
         font-size: 1.5rem;
         position: absolute;
         right: 3%;

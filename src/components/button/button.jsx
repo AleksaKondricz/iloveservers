@@ -3,9 +3,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import styles from "./button.module.css"
 
-const Button = ({ type, label, disabled }) => {
+const Button = ({ type, label, disabled, onClick }) => {
   return (
-    <button disabled={disabled} className={styles[type]}>
+    <button onClick={onClick} disabled={disabled} className={styles[type]}>
       {label}
     </button>
   )
@@ -14,7 +14,8 @@ const Button = ({ type, label, disabled }) => {
 Button.propTypes = {
   type: PropTypes.oneOf(["primary", "secondary"]),
   label: PropTypes.string.isRequired,
-  disabled: PropTypes.bool
+  disabled: PropTypes.bool,
+  onClick: PropTypes.func.isRequired
 }
 Button.defaultProps = {
   type: "primary",

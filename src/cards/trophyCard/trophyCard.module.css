@@ -93,11 +93,11 @@
 
 @media screen and (max-width: 740px) {
 .mainTrophyCard{
-    width: 90%;
+    width: 80%;
     margin-bottom: 50px;
 }
 .trophyCard{
-    width: 80%;
+    width: 75%;
 }
 .text > h2{
     font-size: 1.5rem;
@@ -105,7 +105,7 @@
 }
 .text>p{
     font-size: .9rem;
-    width: 90%;
+    width: 100%;
     line-height: 1.1rem;
     margin: 1rem auto;
     text-align: justify;
@@ -116,5 +116,6 @@
 }
 .stripe{
     bottom: 5%;
+    right: -20px;
 }
 }
