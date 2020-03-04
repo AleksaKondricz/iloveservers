@@ -41,26 +41,15 @@
     border-radius: 50%;
     opacity: .8;
 }
-.projectCardDecoratorMiddle{
-    position: absolute;
-    z-index: 0;
-    top: 30%;
-    left: -30%;
-    height: 17vw;
-    width: 17vw;
-    background-color: #009688;
-    border-radius: 50%;
-    opacity: .8;
-}
+ 
 .projectCardDecoratorEnd{
     position: absolute;
-    z-index: 1;
-    bottom: 5%;
-    right: -18%;
-    height: 10vw;
-    width: 10vw;
+    z-index: 0;
+    bottom: -15%;
+    right: 7%;
+    height: 30vw;
+    width: 30vw;
     background-color: #e98074;
-    filter: drop-shadow(1px 2px 5px black);
     border-radius: 50%;
     opacity: .5;
 }
@@ -92,28 +81,29 @@
 
 @media screen and (max-width: 740px) {
     .projectCardContainer{
-        width: 100%;
+        width: 80%;
         margin-top: 40px;
+        margin-left: 9px;
     }
     .cardWithOrnament{
         width: 80%;
     }
     .projectCardDecorator{
     top: 0; 
-    right: -6%;
+    right: 10%;
     height: 23vw;
     width: 23vw;
+    filter: none;
+    z-index: 0;
     }
-    .projectCardDecoratorMiddle{
-        height: 80vw;
-        width: 80vw;
-        left: -10%;
-    }
+  
     .projectCardDecoratorEnd{
-        bottom: -3%; 
-        right: -10%;
-        height: 27vw;
-        width: 27vw;
+        bottom: -10%; 
+        left: 10%;
+        height: 43vw;
+        z-index: 0;
+        width: 43vw;
+        filter: none;
     }
     .projectCardContainer > h2{
         font-size: 1.4em;
