@@ -12,7 +12,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "eslintConfig": {
     "extends": "react-app"

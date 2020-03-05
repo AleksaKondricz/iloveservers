@@ -6,7 +6,6 @@ const ProjectCard = ({ id, name, challenge, whatAchieved, tech, urls }) => {
   return (
     <div className={styles.cardWithOrnament}>
       <Fade left delay={100}>
-        {" "}
         <div className={styles.projectCardDecorator} />
       </Fade>
       <Fade left delay={200}>
