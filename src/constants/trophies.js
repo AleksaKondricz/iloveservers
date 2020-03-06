@@ -2,7 +2,7 @@ export default [
   {
     projectId: "trophie-0",
     trophyTitle: "SportRadar Hackathon 2019 Winner",
-    imageUrl: "tech-stack-svg/sportradar.png",
+    imageUrl: "images/sportradar.jpg",
     trophyDescription:
       "Building a sport following chatbot prototype. The service would follow soccer matches in real-time and send notifications about goals. If possible it also searches and attach a short video about the goal. Winner solution.",
     source:
@@ -12,7 +12,7 @@ export default [
   {
     projectId: "trophie-1",
     trophyTitle: "HackYeah 2019\nPKP (Polish railways) Challenge Finalist",
-    imageUrl: "tech-stack-svg/hackyeah.png",
+    imageUrl: "images/hackyeah.jpg",
     trophyDescription:
       "Building an universal platform for a train based multiplayer train game. The application would allow multiple players to answer railways based questions thus building brand awareness. Finalist solution.",
     source: "https://hackyeah.pl/",
