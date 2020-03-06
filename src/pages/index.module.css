@@ -88,11 +88,12 @@
     align-items: center;
     justify-content: center;
 }
-.aboutUsMediaBox>img{
-    width:50%;
+.developerFace{
     border-radius: 50%;
-    mix-blend-mode: luminosity;
+    width: 55%;
+    object-fit: cover;
 }
+
 .aboutUsTitle{
     background: #f3f3f3;
     color: #000;
@@ -508,11 +509,11 @@
     padding: 30px 0;
 
 }
-.contactContainer > img{
-    position: absolute;
-    height: inherit;
+.contactImage{
+    position: absolute!important;
     object-fit: cover;
     width: 100%;
+    height: inherit;
     top: 0;
     mix-blend-mode: multiply;
     z-index: 0;

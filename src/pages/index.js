@@ -4,7 +4,7 @@ import { Link } from "react-scroll"
 import Fade from "react-reveal/Fade"
 import Zoom from "react-reveal/Zoom"
 
-import { Header, Footer, Button, NavSlider } from "../components"
+import { Header, Footer, Button, NavSlider, OptImage } from "../components"
 import { Form } from "../containers"
 import { ProjectCard, TrophyCard } from "../cards"
 
@@ -93,7 +93,11 @@ const renderAboutUs = () => {
           </Fade>
           <Fade ssrFadeout right>
             <div className={styles.aboutUsMediaBox}>
-              <img src="images/koppany.webp" alt="Our lead developer" />
+              <OptImage
+                className={styles.developerFace}
+                imageKey="koppany.webp"
+                alt="Our lead developer"
+              />
               <div className={styles.decorativeCircle}>
                 <p>
                   Koppany Kondricz <br />
@@ -343,8 +347,11 @@ const renderAchievements = () => {
 const renderContact = () => {
   return (
     <section className={styles.contactContainer} id="contact">
-      <img src="images/teamwork.webp" alt="Coding together" />
-
+      <OptImage
+        className={styles.contactImage}
+        imageKey="teamwork.webp"
+        alt="Coding together"
+      />
       <Zoom clear ssrFadeout>
         <div className={styles.formWrapper}>
           <div className={styles.contactUsInfo}>
