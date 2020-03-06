@@ -93,7 +93,7 @@ const renderAboutUs = () => {
           </Fade>
           <Fade ssrFadeout right>
             <div className={styles.aboutUsMediaBox}>
-              <img src="images/koppany.jpg" alt="Our lead developer" />
+              <img src="images/koppany.webp" alt="Our lead developer" />
               <div className={styles.decorativeCircle}>
                 <p>
                   Koppany Kondricz <br />
@@ -343,7 +343,7 @@ const renderAchievements = () => {
 const renderContact = () => {
   return (
     <section className={styles.contactContainer} id="contact">
-      <img src="images/teamwork.jpg" alt="Coding together" />
+      <img src="images/teamwork.webp" alt="Coding together" />
 
       <Zoom clear ssrFadeout>
         <div className={styles.formWrapper}>
