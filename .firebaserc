@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "konkop-software"
+  },
+  "targets": {
+    "konkop-software": {
+      "hosting": {
+        "ils": [
+          "iloveservers"
+        ]
+      }
+    }
+  }
+}
