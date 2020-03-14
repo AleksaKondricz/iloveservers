@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable react/forbid-prop-types */
 import React, { useState } from "react"
+
 import PropTypes from "prop-types"
 import styles from "./navSlider.module.css"
 
@@ -30,6 +31,7 @@ const NavSlider = ({ elements, previous, next }) => {
       </h4>
 
       {elements[cardDisplayed].node}
+
       <h4 className={styles.next} onClick={() => incrementCarousel()}>
         {next}
       </h4>

@@ -15,11 +15,12 @@ Button.propTypes = {
   type: PropTypes.oneOf(["primary", "secondary"]),
   label: PropTypes.string.isRequired,
   disabled: PropTypes.bool,
-  onClick: PropTypes.func.isRequired
+  onClick: PropTypes.func
 }
 Button.defaultProps = {
   type: "primary",
-  disabled: false
+  disabled: false,
+  onClick: () => {}
 }
 
 export default Button

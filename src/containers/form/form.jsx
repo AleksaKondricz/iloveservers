@@ -1,3 +1,5 @@
+/* eslint-disable no-shadow */
+/* eslint-disable no-useless-escape */
 import React, { useState } from "react"
 import axios from "axios"
 import Loader from "react-loader-spinner"

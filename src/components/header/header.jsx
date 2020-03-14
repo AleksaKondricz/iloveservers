@@ -30,8 +30,8 @@ const Header = () => {
         </div>
         <ul>
           {navLinksData.map(l => (
-            <li>
-              <Link {...linkProps} key={l.id} to={l.id} className={styles.Link}>
+            <li key={l.id}>
+              <Link {...linkProps} to={l.id} className={styles.Link}>
                 {l.label}
               </Link>
             </li>
@@ -70,7 +70,7 @@ const Header = () => {
 
               <ul>
                 {navLinksData.map(l => (
-                  <li>
+                  <li key={l.id}>
                     <Link
                       {...linkProps}
                       onClick={() => toggleMobileMenu(!mobileMenu)}

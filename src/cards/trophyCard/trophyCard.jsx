@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 import Fade from "react-reveal/Fade"
 import { OptImage } from "../../components"
 import styles from "./trophyCard.module.css"
@@ -12,7 +13,10 @@ const TrophyCard = ({
 }) => {
   return (
     <Fade bottom>
-      <div className={mainCard ? styles.mainTrophyCard : styles.trophyCard}>
+      <div
+        key={trophyTitle}
+        className={mainCard ? styles.mainTrophyCard : styles.trophyCard}
+      >
         <div className={mainCard ? styles.mainStripe : styles.stripe} />
         <OptImage className={styles.trophyImage} imageKey={imageUrl} />
 
@@ -24,6 +28,21 @@ const TrophyCard = ({
       </div>
     </Fade>
   )
+}
+
+TrophyCard.propTypes = {
+  mainCard: PropTypes.bool.isRequired,
+  trophyTitle: PropTypes.string,
+  trophyDescription: PropTypes.string,
+  imageUrl: PropTypes.string,
+  source: PropTypes.string
+}
+
+TrophyCard.defaultProps = {
+  trophyTitle: "",
+  trophyDescription: "",
+  imageUrl: "",
+  source: ""
 }
 
 export default TrophyCard

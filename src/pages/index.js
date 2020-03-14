@@ -4,7 +4,10 @@ import { Link } from "react-scroll"
 import Fade from "react-reveal/Fade"
 import Zoom from "react-reveal/Zoom"
 
-import { Header, Footer, Button, NavSlider, OptImage } from "../components"
+import "react-animated-slider/build/horizontal.css"
+
+import Layout from "../layouts"
+import { Button, NavSlider, OptImage } from "../components"
 import { Form } from "../containers"
 import { ProjectCard, TrophyCard } from "../cards"
 
@@ -157,7 +160,7 @@ const renderTech = () => {
               <h4>Frontend Technologies</h4>
               <div className={styles.logosGrid}>
                 {frontendLogos.map(l => (
-                  <a href={l.httpUrl}>
+                  <a key={l.httpUrl} href={l.httpUrl}>
                     <img
                       className={styles.techLogo}
                       src={l.url}
@@ -173,7 +176,7 @@ const renderTech = () => {
               <h4>Backend Technologies</h4>
               <div className={styles.logosGrid}>
                 {backendLogos.map(l => (
-                  <a href={l.httpUrl}>
+                  <a key={l.httpUrl} href={l.httpUrl}>
                     <img
                       className={styles.techLogo}
                       src={l.url}
@@ -189,7 +192,7 @@ const renderTech = () => {
               <h4>Cloud Solutions & Hosting</h4>
               <div className={styles.logosGrid}>
                 {cloudLogos.map(l => (
-                  <a href={l.httpUrl}>
+                  <a key={l.httpUrl} href={l.httpUrl}>
                     <img
                       className={styles.techLogo}
                       src={l.url}
@@ -208,7 +211,7 @@ const renderTech = () => {
               <h4>Testing</h4>
               <div className={styles.logosGridMiddle}>
                 {testingLogos.map(l => (
-                  <a href={l.httpUrl}>
+                  <a key={l.httpUrl} href={l.httpUrl}>
                     <img
                       className={styles.techLogo}
                       src={l.url}
@@ -224,7 +227,7 @@ const renderTech = () => {
               <h4>Databases</h4>
               <div className={styles.logosGridMiddle}>
                 {databaseLogos.map(l => (
-                  <a href={l.httpUrl}>
+                  <a key={l.httpUrl} href={l.httpUrl}>
                     <img
                       className={styles.techLogo}
                       src={l.url}
@@ -240,7 +243,7 @@ const renderTech = () => {
               <h4>DevOps</h4>
               <div className={styles.logosGridMiddle}>
                 {devopsLogos.map(l => (
-                  <a href={l.httpUrl}>
+                  <a key={l.httpUrl} href={l.httpUrl}>
                     <img
                       className={styles.techLogo}
                       src={l.url}
@@ -258,7 +261,7 @@ const renderTech = () => {
               <h4 className={styles.toolsTitle}>Tools</h4>
               <div className={styles.logosGridLast}>
                 {toolsLogos.map(l => (
-                  <a href={l.httpUrl}>
+                  <a key={l.httpUrl} href={l.httpUrl}>
                     <img
                       className={styles.techLogo}
                       src={l.url}
@@ -314,7 +317,7 @@ const renderProjects = () => {
             next=">"
             elements={projectsDataCopy.projects.map(project => ({
               id: project.id,
-              node: <ProjectCard {...project} />
+              node: <ProjectCard key={project.id} {...project} />
             }))}
           />
         </div>
@@ -373,17 +376,14 @@ const renderContact = () => {
 const HomePage = () => {
   return (
     <>
-      <Header />
-      {renderHero()}
-      {renderAboutUs()}
-      {renderTech()}
-      {renderProjects()}
-      {renderAchievements()}
-      {renderContact()}
-      <Footer
-        heading="We love servers_"
-        copyright="COPYRIGHT © 2020 KONKOP SOFTWARE ALL RIGHTS RESERVED."
-      />
+      <Layout>
+        {renderHero()}
+        {renderAboutUs()}
+        {renderTech()}
+        {renderProjects()}
+        {renderAchievements()}
+        {renderContact()}
+      </Layout>
     </>
   )
 }

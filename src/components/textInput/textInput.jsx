@@ -1,4 +1,7 @@
+/* eslint-disable react/no-typos */
 import React, { useState } from "react"
+import PropTypes from "prop-types"
+
 import styles from "./textInput.module.css"
 
 const TextInput = ({
@@ -34,6 +37,23 @@ const TextInput = ({
       />
     </div>
   )
+}
+
+TextInput.propTypes = {
+  type: PropTypes.string.isRequired,
+  placeholder: PropTypes.string,
+  name: PropTypes.string,
+  value: PropTypes.string,
+  onChange: PropTypes.func.isRequired,
+  useValidation: PropTypes.bool,
+  validator: PropTypes.instanceOf(RegExp)
+}
+TextInput.defaultProps = {
+  placeholder: "",
+  name: "",
+  value: "",
+  useValidation: false,
+  validator: new RegExp()
 }
 
 export default TextInput

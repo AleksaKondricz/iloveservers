@@ -1,8 +1,11 @@
+/* eslint-disable react/forbid-prop-types */
 import React from "react"
+import PropTypes from "prop-types"
 import Fade from "react-reveal/Fade"
+
 import styles from "./projectCard.module.css"
 
-const ProjectCard = ({ id, name, challenge, whatAchieved, tech, urls }) => {
+const ProjectCard = ({ name, challenge, whatAchieved, tech, urls }) => {
   return (
     <div className={styles.cardWithOrnament}>
       <Fade left delay={100}>
@@ -20,9 +23,9 @@ const ProjectCard = ({ id, name, challenge, whatAchieved, tech, urls }) => {
         <h4>What we used ?</h4>
         <div className={styles.techIconsCard}>
           {tech.map(t => (
-            <div className={styles.techStackIcon}>
+            <div key={t.httpUrl} className={styles.techStackIcon}>
               <a href={t.httpUrl}>
-                <img src={t.url} />
+                <img src={t.url} alt="tech stack icon" />
               </a>
             </div>
           ))}
@@ -32,5 +35,19 @@ const ProjectCard = ({ id, name, challenge, whatAchieved, tech, urls }) => {
     </div>
   )
 }
+ProjectCard.propTypes = {
+  name: PropTypes.string,
+  challenge: PropTypes.string,
+  whatAchieved: PropTypes.string,
+  tech: PropTypes.array,
+  urls: PropTypes.array
+}
 
+ProjectCard.defaultProps = {
+  name: "",
+  challenge: "",
+  whatAchieved: "",
+  tech: [],
+  urls: []
+}
 export default ProjectCard
