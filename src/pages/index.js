@@ -4,9 +4,7 @@ import { Link } from "react-scroll"
 import Fade from "react-reveal/Fade"
 import Zoom from "react-reveal/Zoom"
 
-import "react-animated-slider/build/horizontal.css"
-
-import Layout from "../layouts"
+import Layout from "../layout"
 import { Button, NavSlider, OptImage } from "../components"
 import { Form } from "../containers"
 import { ProjectCard, TrophyCard } from "../cards"
@@ -375,16 +373,14 @@ const renderContact = () => {
 
 const HomePage = () => {
   return (
-    <>
-      <Layout>
-        {renderHero()}
-        {renderAboutUs()}
-        {renderTech()}
-        {renderProjects()}
-        {renderAchievements()}
-        {renderContact()}
-      </Layout>
-    </>
+    <Layout>
+      {renderHero()}
+      {renderAboutUs()}
+      {renderTech()}
+      {renderProjects()}
+      {renderAchievements()}
+      {renderContact()}
+    </Layout>
   )
 }
 
